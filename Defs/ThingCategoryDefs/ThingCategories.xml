@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- organism -->
+      <ThingCategoryDef>
+        <defName>ANN_BodyPartsArtificial</defName>
+        <label>cyborg</label>
+        <parent>BodyParts</parent>
+	  </ThingCategoryDef>
+
+  <!-- mind and personality -->
+    <ThingCategoryDef>
+      <defName>ANN_Mind</defName>
+      <label>mind</label>
+      <parent>BodyParts</parent>
+	</ThingCategoryDef>
+
+</Defs>

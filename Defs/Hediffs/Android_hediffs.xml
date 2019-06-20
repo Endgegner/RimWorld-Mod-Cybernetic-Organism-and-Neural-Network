@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ############## Zoom ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_Zoom</defName>
+    <label>Zoom</label>
+    <labelNoun>a bionic eye</labelNoun>
+	<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+		  <MedicalTendQualityOffset>0.1</MedicalTendQualityOffset>
+		  <MedicalTendSpeed>0.15</MedicalTendSpeed>
+        </statOffsets>
+        <capMods>
+      <li>
+        <capacity>Sight</capacity>
+        <offset>0.05</offset>
+      </li>
+      </capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.10</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_Zoom</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- ############## Black Pearl ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_BlackPearl</defName>
+    <label>Black Pearl</label>
+    <labelNoun>a black eye</labelNoun>
+	<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <stages>
+      <li>
+        <label>Night Vision</label>
+        <capMods>
+		  <li>
+			<capacity>Sight</capacity>
+			<offset>0.15</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.33</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_BlackPearl</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- ############## Independent Eye ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_IndependentEye</defName>
+    <label>Independent Eye</label>
+    <labelNoun>an ultraviolet eye</labelNoun>
+    <defaultLabelColor>(0.85, 0.3, 0)</defaultLabelColor>
+    <stages>
+      <li>
+        <label>Robot</label>
+        <capMods>
+		  <li>
+			<capacity>Consciousness</capacity>
+			<offset>0.10</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_IndependentEye</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- ############## Hover Feet ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_HoverFeet</defName>
+    <label>Hover Foot</label>
+    <labelNoun>a hover foot</labelNoun>
+	<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <stages>
+      <li>
+        <label>Robot</label>
+        <capMods>
+		  <li>
+			<capacity>Moving</capacity>
+			<offset>0.10</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.15</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_HoverFeet</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- ############## Greenthumb ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_Greenthumb</defName>
+    <label>Greenthumb</label>
+    <labelNoun>a bionic hand module</labelNoun>
+  	<defaultLabelColor>(0.2, 0.6, 0.2)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <PlantHarvestYield>0.15</PlantHarvestYield>
+		  <PlantWorkSpeed>0.10</PlantWorkSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.05</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_Greenthumb</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- ############## Compression Jaw ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_CompressionJaw</defName>
+    <label>Compression Jaw</label>
+    <labelNoun>a hydraulic jaw</labelNoun>
+	<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <EatingSpeed>0.33</EatingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.33</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_CompressionJaw</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- ############## Compression Stomach ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_CompressionStomach</defName>
+    <label>Compression Stomach</label>
+    <labelNoun>a bionic stomach</labelNoun>
+	<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <capMods>
+		  <li>
+			<capacity>Metabolism</capacity>
+			<offset>0.15</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.33</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_CompressionStomach</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- ############## Energetic Lung ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_EnergeticLung</defName>
+    <label>Energetic Lung</label>
+    <labelNoun>a bionic lung</labelNoun>
+	<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <capMods>
+		  <li>
+			<capacity>Breathing</capacity>
+			<offset>0.15</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.33</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_EnergeticLung</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- ############## Energetic Kidney ############## -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Trunken_hediff_EnergeticKidney</defName>
+    <label>Energetic Kidney</label>
+    <labelNoun>a bionic kidney</labelNoun>
+	<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <capMods>
+		  <li>
+			<capacity>BloodFiltration</capacity>
+			<offset>0.15</offset>
+		  </li>
+		</capMods>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.33</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>ANN_EnergeticKidney</spawnThingOnRemoved>
+  </HediffDef>
+
+</Defs>

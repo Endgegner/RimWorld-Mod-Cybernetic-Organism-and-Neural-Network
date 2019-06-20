@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+  <!-- Mod Support for Jewelry -->
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Jewelry</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Costs -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="ANN_CompressionJaw"]/costList</xpath>
+				<value>
+					<costList>
+					  <RawDiamond>1</RawDiamond>
+					  <Gold>50</Gold>
+					  <ComponentSpacer>5</ComponentSpacer>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</match>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ############## Zoom ############## -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ANN_Zoom</defName>
+    <label>zoom</label>
+    <description>An enhanced artifical eye. With its biogel nerve-link, internal signal pre-processor, self-repair module, wide-spectrum sensors, and synaptic impulse transmitter, it is better than a biological eye in almost every way. The prototype neuro connector allows the user to zoom in and out on thought.</description>
+    <graphicData>
+	  <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <costList>
+      <PsychoidLeaves>75</PsychoidLeaves>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <Flammability>0.6</Flammability>
+	  <DeteriorationRate>0.2</DeteriorationRate>
+	  <Beauty>-2</Beauty>
+      <WorkToMake>35000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- ############## Black Pearl ############## -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ANN_BlackPearl</defName>
+    <label>black pearl</label>
+    <description>An improved artificial eye with unique elements and fullside trigger. It brings a wide set of features, but the most outstanding is the eyelid night vision. The black pearl was once an important symbol between soldiers, in times when the robots rise. The core is basically an android eye-ball module, taken out of a mechanical body by alpha marines. They were treated as spoils of war during a dark era of mankind. The name relates to its deep black color, which makes the mind unreadable for analytic sequences.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>ANN_CyberneticOrganism</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <costList>
+      <Uranium>50</Uranium>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Flammability>0.2</Flammability>
+	  <DeteriorationRate>0.1</DeteriorationRate>
+	  <Beauty>-3</Beauty>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- ############## Independent Eye ############## -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ANN_IndependentEye</defName>
+    <label>independent eye</label>
+    <description>An independent and full-automatic robotic eye for 270° fullside vision. It feeds the users brain with informations by connecting to central nerve system with a special gateway processor. It can be taken out easily on upkeep for maintenance.\n\n Android versions of these can float out the eye socket and rotate around the carrier to secure and monitor the area, granting a view an old eagle could dream of.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>ANN_CyberneticOrganism</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>18</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <costList>
+      <Plasteel>75</Plasteel>
+      <Uranium>50</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Flammability>0.6</Flammability>
+	  <DeteriorationRate>0.2</DeteriorationRate>
+	  <Beauty>-5</Beauty>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- ############## Hover Feet ############## -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ANN_HoverFeet</defName>
+    <label>hover feet</label>
+    <description>A self-sustaining hover board mounted on a rail adapter transplantion directly linked to the bones inside the foot. Young street gangs used this once upon a time to escape after crime on Urbworlds. Enhances movement speed by gliding.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <costList>
+	  <Silver>150</Silver>
+      <Plasteel>75</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MaxHitPoints>25</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+	  <DeteriorationRate>0.5</DeteriorationRate>
+	  <Beauty>-1</Beauty>
+      <WorkToMake>30000</WorkToMake>
+      <MarketValue>800</MarketValue>
+      <Mass>4.5</Mass>
+	</statBases>
+    <recipeMaker>
+      <researchPrerequisite>ANN_CyberneticOrganism</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- ############## Greenthumb ############## -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ANN_Greenthumb</defName>
+    <label>greenthumb</label>
+    <description>A dedicated bionic module for hybdrid settlements and colonization. It replaces the thumb as a full configurable and functionable finger hand device. The storage inside the palm of the hand is linked with a learning nanocomputer, containing informations about vegetation as flora and fauna types. An implemented hub feeds the user with knowledge requests, detected by the openhand sensor. The nail glows green during data scans and loading times.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <costList>
+	  <Jade>75</Jade>
+      <Plasteel>25</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+	  <DeteriorationRate>0.1</DeteriorationRate>
+	  <Beauty>-1</Beauty>
+      <WorkToMake>40000</WorkToMake>
+      <MarketValue>700</MarketValue>
+      <Mass>0.4</Mass>
+	</statBases>
+    <recipeMaker>
+      <researchPrerequisite>ANN_CyberneticOrganism</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- ############## Compression Jaw ############## -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ANN_CompressionJaw</defName>
+    <label>compression jaw</label>
+    <description>A artifical jaw replacement with a hydraulic servo-motor. The titanium case plus diamond teeth combination crushes through iron with ease and allows the carrier to compress material in seconds.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <costList>
+	  <Gold>50</Gold>
+      <Plasteel>25</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+	  <DeteriorationRate>0.5</DeteriorationRate>
+	  <Beauty>-4</Beauty>
+      <WorkToMake>25000</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <Mass>2.5</Mass>
+	</statBases>
+    <recipeMaker>
+      <researchPrerequisite>ANN_CyberneticOrganism</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- ############## Compression Stomach ############## -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ANN_CompressionStomach</defName>
+    <label>compression stomach</label>
+    <description>A strong bioinic stomach that digests food at an unimaginable rate due to its internal hydraulic servo-motors. It is possible to crush stones inside the trunk and make them dissipate soon after, thanks to the integrated muriatic acid mixer.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <costList>
+	  <Gold>50</Gold>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+	  <DeteriorationRate>0.5</DeteriorationRate>
+	  <Beauty>-4</Beauty>
+      <WorkToMake>25000</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <Mass>3.5</Mass>
+	</statBases>
+    <recipeMaker>
+      <researchPrerequisite>ANN_CyberneticOrganism</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- ############## Energetic Lung ############## -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ANN_EnergeticLung</defName>
+    <label>energetic lung</label>
+    <description>A bionic lung with perseverance regulator, extra accumulator tank and stamina refresher, concepted for human space travel in times where no oxygen transformers existed. A pair of these can form the base of a human respiratory system. The unique module replace years of practice and self-control by a snap.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <Uranium>50</Uranium>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+	  <DeteriorationRate>0.5</DeteriorationRate>
+	  <Beauty>0</Beauty>
+      <WorkToMake>25000</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <Mass>1.5</Mass>
+	</statBases>
+    <recipeMaker>
+      <researchPrerequisite>ANN_CyberneticOrganism</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!-- ############## Energetic Kidney ############## -->
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>ANN_EnergeticKidney</defName>
+    <label>energetic kidney</label>
+    <description>A bionic kidney for more endurance and strength. The nephrons are replaced by a reactive filter in this hybdrid design. It releases immunotoxins into the system, protecting the user from even the deadliest of diseases.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <costList>
+      <Uranium>50</Uranium>
+      <Plasteel>50</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+	  <DeteriorationRate>0.5</DeteriorationRate>
+	  <Beauty>0</Beauty>
+      <WorkToMake>25000</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <Mass>1.5</Mass>
+	</statBases>
+    <recipeMaker>
+      <researchPrerequisite>ANN_CyberneticOrganism</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+	  <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</recipeMaker>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <thingCategories Inherit="False">
+      <li>ANN_BodyPartsArtificial</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

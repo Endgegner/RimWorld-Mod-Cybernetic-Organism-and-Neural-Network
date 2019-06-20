@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ANN_NeuralNetwork</defName>
+		<label>Neural Network</label>
+		<description>Learn how to inject performance increasing nanobots.</description>
+		<baseCost>9000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>Bionics</li>
+		</prerequisites>
+		<researchViewX>16</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ANN_CyberneticOrganism</defName>
+		<label>Cybernetic Organism</label>
+		<description>Create cyborgs and supersoldiers with this secret military blueprint.</description>
+		<baseCost>18000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>ANN_NeuralNetwork</li>
+		</prerequisites>
+		<researchViewX>17</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

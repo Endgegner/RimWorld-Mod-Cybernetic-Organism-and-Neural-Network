@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Cybernetic Organism and Neural Network</name>
+    <author>Trunken, Kikohi</author>
+    <supportedVersions><li>1.0</li></supportedVersions>
+    <description>
+&lt;b&gt;&lt;color=#ff4800&gt;Medical Expansion&lt;/color&gt;&lt;/b&gt;
+Contains a variety of Cyborg &amp; Android Prosthetics, Artificial Body Parts &amp; Weapons, Transformations, Transplantations, Neural Chips, Fusions and Enhancements.
+
+&lt;b&gt;&lt;color=#ffa800&gt;Details&lt;/color&gt;&lt;/b&gt;
+This mod lets you create your own cyborgs and super soldiers. Make specialized squads with combat chips controlled by an artifical intelligence or let your bruisers go outta control with energy fists and outer blades made of titanium. Enhance their agility with advanced musclewire or give em a cyclops visor for more precision.
+
+You can use eye piercing neuromods to transfer the brain structure and enhance their skill levels or brainwash their passions to restart from zero. Shield them in exoskeleton armors or with Dermalplatings fused directly with the body. 
+
+&lt;b&gt;Content&lt;/b&gt;
+ - Energy Core (Mechanoid Power Cell)
+ - Energy Link (Shield Enhancer)
+ - Energy Fist (Body weapon)
+ - Outer Blade (AP Body weapon)
+ - Power Arms (Body transforming, Strength)
+ - Berserker Chip (Enrage)
+ - Mindtwist (No remorse)
+ - Eye piercing Neuromods (+2 all abilities)
+ - Autonomic viruskiller (Antibodies for immune system)
+ - Brainwash (Trait reset)
+ - Muse Chip (Virtual identity)
+ - Passion Giver
+ - Neuro Enhancer (Thinktank)
+ - Mind Clearer (No Thoughts)
+ - Reconditioner (No job restrictions)
+ - Flash Light (Earside Lamp)
+ - Laser Detection (Earside Scanner)
+ - Sensoric Earside (Perception)
+ - Combat AI (Targeting)
+ - Cyclops Visor (Sight)
+ - Shadowrunner (Stealth)
+ - Musclewire (Movement)
+ - Dermalplating (Protection)
+ - Exoskeleton (Protection)
+
+All surgeries and items have their own drawbacks, neuromods for example can paralyze your pawn or create a lasting but tendable white noise. Each operation can fail. 100s of new features like a Flash Light for mining, which turns off in the sunlight or while sleeping...
+
+&lt;b&gt;Update&lt;/b&gt;
+ - Lionheart (Elder)
+ - Zoom (Optics)
+ - Aurum (Businessmen)
+ - Aurean Cornea (Attraction)
+ - Black Pearl (Nightvision)
+ - Independent Eye (Robot)
+ - Synchronizer (One with the Pack)
+ - Hover Feet (Speed)
+ - Greenthumb
+ - Elastic Achilles (Last Human Weakness)
+ - Compression Jaw (Replacement)
+ - Compression Stomach (Replacement)
+ - Energetic Lung (Replacement)
+ - Energetic Kidney (Replacement)
+
+New Bionics, Prostethics, Replacements, Restaurations and Modules. Gear up your assault troops with tactical coordination equipment or create your own Paradise Eden with the Greenthumb.
+
+&lt;b&gt;&lt;color=#18ddd1&gt;Requirements&lt;/color&gt;&lt;/b&gt;
+ - Skill: 12-18 Crafting / Medicine
+ - Technology Level: Spacer / Ultra
+ - Research: Neural Network / Cybernetic Organism
+
+&lt;b&gt;&lt;color=#18c8dd&gt;Compatibility &amp; Loadorder&lt;/color&gt;&lt;/b&gt;
+ - Forsakens
+ - Android Tiers
+ - Android Tiers Arsenal (Upcoming)
+ - Mechanoid Power Source
+ - Cyborg Weaponry (Upcoming)
+ - Cybernetic Organism and Neural Network (CONN) - load it here -
+ - Rah's Bionics and Surgery Expansion (RSBE)
+ - Expanded Prosthetics and Organ Engineering (EPOE)
+ - Bionic Icons (recommended)
+ - Animal Cybenetics (AnyC)
+
+Have you ever wanted to artificially enhance the abilities of your settlers? This is it.
+
+Finest lategame content brought to you by Kikohi &amp; Trunken.
+    </description>
+</ModMetaData>
