@@ -92,7 +92,7 @@
   <ThingDef ParentName="BodyPartArtificialBase">
     <defName>ANN_EnergyFist</defName>
     <label>energy fist</label>
-    <description>A combat-oriented hand replacement consisting of a technological hand and an implemented pumping system inside the wrist. It is furious in combat, and its mighty mini-servos can crush a skull like a natural hand crushes an egg. The mechanical system lets you have control about its sheer power with its poweful speed boosts bounded on neural connectors and energized by a vanometric micro-battery.</description>
+    <description>A combat-oriented hand replacement consisting of a technological hand and an implemented pumping system inside the wrist. It is furious in combat, and its mighty mini-servos can crush a skull like a natural hand crushes an egg. The mechanical trigger lets you have control about its sheer power with its poweful speed boosts bounded on neural connectors and energized by a vanometric micro-battery.</description>
     <graphicData>
       <texPath>Things/Item/Health/HealthItemArchotech</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -269,7 +269,7 @@
 <!-- ############## Mindtwist ############## -->
   <ThingDef ParentName="ImplantBase">
     <defName>ANN_Mindtwist</defName>
-    <label>Mindtwist</label>
+    <label>mindtwist</label>
     <description>A mindtwist device takes away any remorses away of the patient. It interacts directly with the users brain and closes bridges between unnecessary brain areas. It was developed on a secret military base asteroid by a mad scientist named K.</description>
     <graphicData>
       <texPath>Things/Item/Health/HealthItemBionic</texPath>
@@ -891,7 +891,7 @@
 	</recipeMaker>
     <costList>
       <ThrumboHorn>1</ThrumboHorn>
-      <Gold>75</Gold>
+      <Gold>25</Gold>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <statBases>
@@ -933,7 +933,7 @@
 	</recipeMaker>
     <costList>
       <ElephantTusk>1</ElephantTusk>
-      <Gold>75</Gold>
+      <Gold>25</Gold>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <statBases>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <!-- Extra Stat Parts -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<!-- Energy Shield StatDefs -->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/StatDef[defName="EnergyShieldEnergyMax"]/parts</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/StatDef[defName="EnergyShieldEnergyMax"]</xpath>
+						<value>
+							<parts>
+								<li Class="ExtraStatParts.StatPart_EquipmentHediffStats" />
+							</parts>
+						</value>
+				</nomatch>
+				<match Class="PatchOperationAdd">
+				<xpath>/Defs/StatDef[defName="EnergyShieldEnergyMax"]/parts</xpath>
+					<value>
+						<li Class="ExtraStatParts.StatPart_EquipmentHediffStats" />
+					</value>
+				</match>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/StatDef[defName="EnergyShieldRechargeRate"]/parts</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/StatDef[defName="EnergyShieldRechargeRate"]</xpath>
+						<value>
+							<parts>
+								<li Class="ExtraStatParts.StatPart_EquipmentHediffStats" />
+							</parts>
+						</value>
+				</nomatch>
+				<match Class="PatchOperationAdd">
+				<xpath>/Defs/StatDef[defName="EnergyShieldRechargeRate"]/parts</xpath>
+					<value>
+						<li Class="ExtraStatParts.StatPart_EquipmentHediffStats" />
+					</value>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

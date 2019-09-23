@@ -11,7 +11,7 @@
   <!-- ############## Brainwash ############## -->
 
   <ANN_Brainwash.label>ブレインウォッシャー</ANN_Brainwash.label>
-  <ANN_Brainwash.description>記憶を消去するための洗脳装置です。既存の特性に影響を与えます。</ANN_Brainwash.description>
+  <ANN_Brainwash.description>記憶を消去するための洗脳装置です。既存の特性に影響を与えます。すでに洗脳が終わった患者には使わないでください！</ANN_Brainwash.description>
   <ANN_Brainwash.comps.CompUsable.useLabel>ブレインウォッシャーを使用する</ANN_Brainwash.comps.CompUsable.useLabel>
 
 
@@ -32,7 +32,7 @@
   <!-- ############## Reconditioner ############## -->
 
   <ANN_Reconditioner.label>リコンディショナー</ANN_Reconditioner.label>
-  <ANN_Reconditioner.description>あなたの人生がどうだったのか忘れさせるために、脳神経細胞を変化するナノボットを注射して、バックストーリーを書き換えてます。</ANN_Reconditioner.description>
+  <ANN_Reconditioner.description>脳神経細胞を変化させてしまうナノロボットを注射して、バックストーリーを書き換えます。使用するリスクとして重度のアルツハイマーを引き起こす場合があのます。</ANN_Reconditioner.description>
   <ANN_Reconditioner.comps.CompUsable.useLabel>リコンディショナーを使用する</ANN_Reconditioner.comps.CompUsable.useLabel>
 
 </LanguageData>

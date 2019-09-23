@@ -142,7 +142,7 @@
     </graphicData>
     <techLevel>Spacer</techLevel>
     <costList>
-	  <Silver>150</Silver>
+	  <Silver>75</Silver>
       <Plasteel>75</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
     </costList>
@@ -228,7 +228,7 @@
     </graphicData>
     <techLevel>Spacer</techLevel>
     <costList>
-	  <Gold>50</Gold>
+	  <Gold>10</Gold>
       <Plasteel>25</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
@@ -271,7 +271,7 @@
     </graphicData>
     <techLevel>Spacer</techLevel>
     <costList>
-	  <Gold>50</Gold>
+	  <Gold>10</Gold>
       <Plasteel>50</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
     </costList>

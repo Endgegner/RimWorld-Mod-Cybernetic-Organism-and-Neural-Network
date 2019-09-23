@@ -1,7 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+
   <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_ANN_Zoom.label>ズームアイを作る</Make_ANN_Zoom.label>
+  <Make_ANN_Zoom.description>ズームアイを作る。</Make_ANN_Zoom.description>
+  <Make_ANN_Zoom.jobString>ズームアイを製作中</Make_ANN_Zoom.jobString>
+
+  <Make_ANN_BlackPearl.label>ブラックパールを作る</Make_ANN_BlackPearl.label>
+  <Make_ANN_BlackPearl.description>ブラックパールを作る。</Make_ANN_BlackPearl.description>
+  <Make_ANN_BlackPearl.jobString>ブラックパールを製作中</Make_ANN_BlackPearl.jobString>
+
+  <Make_ANN_IndependentEye.label>インディペンデントアイを作る</Make_ANN_IndependentEye.label>
+  <Make_ANN_IndependentEye.description>インディペンデントアイを作る。</Make_ANN_IndependentEye.description>
+  <Make_ANN_IndependentEye.jobString>インディペンデントアイを製作中</Make_ANN_IndependentEye.jobString>
+
+  <Make_ANN_HoverFeet.label>ホバーフットを作る</Make_ANN_HoverFeet.label>
+  <Make_ANN_HoverFeet.description>ホバーフットを作る。</Make_ANN_HoverFeet.description>
+  <Make_ANN_HoverFeet.jobString>ホバーフットを製作中</Make_ANN_HoverFeet.jobString>
+
+  <Make_ANN_Greenthumb.label>グリーンサムを作る</Make_ANN_Greenthumb.label>
+  <Make_ANN_Greenthumb.description>グリーンサムを作る。</Make_ANN_Greenthumb.description>
+  <Make_ANN_Greenthumb.jobString>グリーンサムを製作中</Make_ANN_Greenthumb.jobString>
+
+  <Make_ANN_CompressionJaw.label>コンプレッションジョーを作る</Make_ANN_CompressionJaw.label>
+  <Make_ANN_CompressionJaw.description>コンプレッションジョーを作る。</Make_ANN_CompressionJaw.description>
+  <Make_ANN_CompressionJaw.jobString>コンプレッションジョーを製作中</Make_ANN_CompressionJaw.jobString>
+
+  <Make_ANN_CompressionStomach.label>コンプレッションストマックを作る</Make_ANN_CompressionStomach.label>
+  <Make_ANN_CompressionStomach.description>コンプレッションストマックを作る。</Make_ANN_CompressionStomach.description>
+  <Make_ANN_CompressionStomach.jobString>コンプレッションストマックを製作中</Make_ANN_CompressionStomach.jobString>
+
+  <Make_ANN_EnergeticLung.label>エネルゲティックラングを作る</Make_ANN_EnergeticLung.label>
+  <Make_ANN_EnergeticLung.description>エネルゲティックラングを作る。</Make_ANN_EnergeticLung.description>
+  <Make_ANN_EnergeticLung.jobString>エネルゲティックラングを製作中</Make_ANN_EnergeticLung.jobString>
+
+  <Make_ANN_EnergeticKidney.label>エネルゲティックキドニーを作る</Make_ANN_EnergeticKidney.label>
+  <Make_ANN_EnergeticKidney.description>エネルゲティックキドニーを作る。</Make_ANN_EnergeticKidney.description>
+  <Make_ANN_EnergeticKidney.jobString>エネルゲティックキドニーを製作中</Make_ANN_EnergeticKidney.jobString>
 
   <Make_ANN_EnergyCore.label>エネルギーコアを作る</Make_ANN_EnergyCore.label>
   <Make_ANN_EnergyCore.description>エネルギーコアを作る。</Make_ANN_EnergyCore.description>
@@ -93,6 +130,32 @@
   <Make_ANN_Exoskeleton.label>エクゾスケルトンアーマーを作る</Make_ANN_Exoskeleton.label>
   <Make_ANN_Exoskeleton.description>エクゾスケルトンアーマーを作る。</Make_ANN_Exoskeleton.description>
   <Make_ANN_Exoskeleton.jobString>エクゾスケルトンアーマーを製作中</Make_ANN_Exoskeleton.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_ANN_Lionheart.label>ライオンハートを作る</Make_ANN_Lionheart.label>
+  <Make_ANN_Lionheart.description>ライオンハートを作る。</Make_ANN_Lionheart.description>
+  <Make_ANN_Lionheart.jobString>ライオンハートを製作中</Make_ANN_Lionheart.jobString>
+
+  <Make_ANN_Aurum.label>オーラムを作る</Make_ANN_Aurum.label>
+  <Make_ANN_Aurum.description>オーラムを作る。</Make_ANN_Aurum.description>
+  <Make_ANN_Aurum.jobString>オーラムを製作中</Make_ANN_Aurum.jobString>
+
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_ANN_AureanCornea.label>オウリアンコーニアを作る</Make_ANN_AureanCornea.label>
+  <Make_ANN_AureanCornea.description>オウリアンコーニアを作る。</Make_ANN_AureanCornea.description>
+  <Make_ANN_AureanCornea.jobString>オウリアンコーニアを製作中</Make_ANN_AureanCornea.jobString>
+
+  <Make_ANN_Synchronizer.label>シンクロナイザを作る</Make_ANN_Synchronizer.label>
+  <Make_ANN_Synchronizer.description>シンクロナイザを作る。</Make_ANN_Synchronizer.description>
+  <Make_ANN_Synchronizer.jobString>シンクロナイザを製作中</Make_ANN_Synchronizer.jobString>
+
+  <Make_ANN_ElasticAchilles.label>エラステックアキレスを作る</Make_ANN_ElasticAchilles.label>
+  <Make_ANN_ElasticAchilles.description>エラステックアキレスを作る。</Make_ANN_ElasticAchilles.description>
+  <Make_ANN_ElasticAchilles.jobString>エラステックアキレスを製作中</Make_ANN_ElasticAchilles.jobString>
 
   <Make_ANN_NeuromodBooster.label>ニューロモッドを作る</Make_ANN_NeuromodBooster.label>
   <Make_ANN_NeuromodBooster.description>ニューロモッドを作る。</Make_ANN_NeuromodBooster.description>

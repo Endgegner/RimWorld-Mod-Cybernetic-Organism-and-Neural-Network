@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## Energy Core ############## -->
+
+  <Trunken_hediff_EnergyCore.label>エネルギーコア</Trunken_hediff_EnergyCore.label>
+  <Trunken_hediff_EnergyCore.stages.Heart.label>心臓</Trunken_hediff_EnergyCore.stages.Heart.label>
+  <Trunken_hediff_EnergyCore.labelNoun>エネルギーコア</Trunken_hediff_EnergyCore.labelNoun>
+
+
+  <!-- ############## Energy Link ############## -->
+
+  <Trunken_hediff_EnergyLink.label>エナジーリンク</Trunken_hediff_EnergyLink.label>
+  <Trunken_hediff_EnergyLink.stages.Titanium.label>チタニウム</Trunken_hediff_EnergyLink.stages.Titanium.label>
+  <Trunken_hediff_EnergyLink.labelNoun>エナジーリンク</Trunken_hediff_EnergyLink.labelNoun>
+
+
+  <!-- ############## Energy Fist ############## -->
+
+  <Trunken_hediff_EnergyFist.label>エネルギーフィスト</Trunken_hediff_EnergyFist.label>
+  <Trunken_hediff_EnergyFist.comps.HediffComp_VerbGiver.tools.arm.label>腕</Trunken_hediff_EnergyFist.comps.HediffComp_VerbGiver.tools.arm.label>
+  <Trunken_hediff_EnergyFist.labelNoun>エネルギーフィスト</Trunken_hediff_EnergyFist.labelNoun>
+
+
+  <!-- ############## Outer Blade ############## -->
+
+  <Trunken_hediff_OuterBlade.label>アウターブレード</Trunken_hediff_OuterBlade.label>
+  <Trunken_hediff_OuterBlade.comps.HediffComp_VerbGiver.tools.arm.label>腕</Trunken_hediff_OuterBlade.comps.HediffComp_VerbGiver.tools.arm.label>
+  <Trunken_hediff_OuterBlade.labelNoun>アウターブレード</Trunken_hediff_OuterBlade.labelNoun>
+
+
+  <!-- ############## パワーアーム ############### -->
+
+  <Trunken_hediff_PowerArms.label>パワーアーム</Trunken_hediff_PowerArms.label>
+  <Trunken_hediff_PowerArms.comps.HediffComp_VerbGiver.tools.arm.label>腕</Trunken_hediff_PowerArms.comps.HediffComp_VerbGiver.tools.arm.label>
+  <Trunken_hediff_PowerArms.labelNoun>パワーアーム</Trunken_hediff_PowerArms.labelNoun>
+
+
+  <!-- ############## Berserker Chip ############## -->
+
+  <Trunken_hediff_BerserkerChip.label>バーサーカーチップ</Trunken_hediff_BerserkerChip.label>
+  <Trunken_hediff_BerserkerChip.labelNoun>バーサーカーチップ</Trunken_hediff_BerserkerChip.labelNoun>
+
+
+  <!-- ############## Mindtwist ############## -->
+
+  <Trunken_hediff_Mindtwist.label>マインドツイスト</Trunken_hediff_Mindtwist.label>
+  <Trunken_hediff_Mindtwist.labelNoun>マインドツイスト</Trunken_hediff_Mindtwist.labelNoun>
+
+
+  <!-- ############## Autonomic Antibodies ############## -->
+
+  <Trunken_hediff_Autonomicviruskiller.label>自律型ウイルスキラー</Trunken_hediff_Autonomicviruskiller.label>
+  <Trunken_hediff_Autonomicviruskiller.stages.Antibodies.label>抗体強化</Trunken_hediff_Autonomicviruskiller.stages.Antibodies.label>
+  <Trunken_hediff_Autonomicviruskiller.labelNoun>自律型ウイルスキラー</Trunken_hediff_Autonomicviruskiller.labelNoun>
+
+
+  <!-- ############## Virtual Identity Muse ############## -->
+
+  <Trunken_hediff_MuseChip.label>ミューズチップ</Trunken_hediff_MuseChip.label>
+  <Trunken_hediff_MuseChip.stages.Virtual_Identity.label>仮想人格</Trunken_hediff_MuseChip.stages.Virtual_Identity.label>
+  <Trunken_hediff_MuseChip.labelNoun>ミューズチップ</Trunken_hediff_MuseChip.labelNoun>
+
+
+  <!-- ############## Neuro Enhancer ############## -->
+
+  <Trunken_hediff_NeuroEnhancer.label>ニューロエンハンサー</Trunken_hediff_NeuroEnhancer.label>
+  <Trunken_hediff_NeuroEnhancer.stages.Network.label>ネットワーク</Trunken_hediff_NeuroEnhancer.stages.Network.label>
+  <Trunken_hediff_NeuroEnhancer.labelNoun>ニューロエンハンサー</Trunken_hediff_NeuroEnhancer.labelNoun>
+
+
+  <!-- ############## Flash Light ############## -->
+
+  <Trunken_hediff_FlashLight.label>フラッシュライト</Trunken_hediff_FlashLight.label>
+  <Trunken_hediff_FlashLight.stages.Lamp.label>ライト</Trunken_hediff_FlashLight.stages.Lamp.label>
+  <Trunken_hediff_FlashLight.labelNoun>フラッシュライト</Trunken_hediff_FlashLight.labelNoun>
+
+
+  <!-- ############## Laser Detection ############## -->
+
+  <Trunken_hediff_LaserDetection.label>レーザー探知器</Trunken_hediff_LaserDetection.label>
+  <Trunken_hediff_LaserDetection.stages.Scanner.label>スキャナー</Trunken_hediff_LaserDetection.stages.Scanner.label>
+  <Trunken_hediff_LaserDetection.labelNoun>レーザー探知器</Trunken_hediff_LaserDetection.labelNoun>
+
+
+  <!-- ############## Sensoric Earside  ############## -->
+
+  <Trunken_hediff_SensoricEarside.label>音響探知器</Trunken_hediff_SensoricEarside.label>
+  <Trunken_hediff_SensoricEarside.labelNoun>音響探知器</Trunken_hediff_SensoricEarside.labelNoun>
+
+
+  <!-- ############## Combat AI ############## -->
+
+  <Trunken_hediff_CombatAI.label>戦闘用AI</Trunken_hediff_CombatAI.label>
+  <Trunken_hediff_CombatAI.labelNoun>戦闘用AI</Trunken_hediff_CombatAI.labelNoun>
+
+
+  <!-- ############## Cyclops Visor ############## -->
+
+  <Trunken_hediff_CyclopsVisor.label>サイクロプスバイザー</Trunken_hediff_CyclopsVisor.label>
+  <Trunken_hediff_CyclopsVisor.labelNoun>サイクロプスバイザー</Trunken_hediff_CyclopsVisor.labelNoun>
+
+
+  <!-- ############## Shadowrunner ############## -->
+
+  <Trunken_hediff_Shadowrunner.label>シャドウランナー</Trunken_hediff_Shadowrunner.label>
+  <Trunken_hediff_Shadowrunner.labelNoun>「シャドウランナー」肺清浄装置です。</Trunken_hediff_Shadowrunner.labelNoun>
+
+
+  <!-- ############## Musclewire ############## -->
+
+  <Trunken_hediff_Musclewire.label>マッスルワイヤー</Trunken_hediff_Musclewire.label>
+  <Trunken_hediff_Musclewire.labelNoun>マッスルワイヤー</Trunken_hediff_Musclewire.labelNoun>
+
+
+  <!-- ############## Dermalplating ############## -->
+
+  <Trunken_hediff_Dermalplating.label>ダーマルプレーティング</Trunken_hediff_Dermalplating.label>
+  <Trunken_hediff_Dermalplating.stages.Titanium.label>チタニウム</Trunken_hediff_Dermalplating.stages.Titanium.label>
+  <Trunken_hediff_Dermalplating.labelNoun>ダーマルプレーティング</Trunken_hediff_Dermalplating.labelNoun>
+
+
+  <!-- ############## Exoskeleton Armor ############## -->
+
+  <Trunken_hediff_ExoskeletonArmor.label>エクゾスケルトンアーマー</Trunken_hediff_ExoskeletonArmor.label>
+  <Trunken_hediff_ExoskeletonArmor.stages.Legacy.label>遺物</Trunken_hediff_ExoskeletonArmor.stages.Legacy.label>
+  <Trunken_hediff_ExoskeletonArmor.labelNoun>エクゾスケルトンアーマー</Trunken_hediff_ExoskeletonArmor.labelNoun>
+
+
+  <!-- ############## Lionheart ############## -->
+
+  <Trunken_hediff_Lionheart.label>ライオンハート</Trunken_hediff_Lionheart.label>
+  <Trunken_hediff_Lionheart.labelNoun>ライオンハート</Trunken_hediff_Lionheart.labelNoun>
+
+
+  <!-- ############## Aurum ############## -->
+
+  <Trunken_hediff_Aurum.label>オーラム</Trunken_hediff_Aurum.label>
+  <Trunken_hediff_Aurum.labelNoun>黄金眼球</Trunken_hediff_Aurum.labelNoun>
+
+
+  <!-- ############## Aurean Cornea ############## -->
+
+  <Trunken_hediff_AureanCornea.label>オウリアンコーニア</Trunken_hediff_AureanCornea.label>
+  <Trunken_hediff_AureanCornea.labelNoun>黄金角膜</Trunken_hediff_AureanCornea.labelNoun>
+
+
+  <!-- ############## Synchronizer ############## -->
+
+  <Trunken_hediff_Synchronizer.label>シンクロナイザ</Trunken_hediff_Synchronizer.label>
+  <Trunken_hediff_Synchronizer.stages.Screen.label>スクリーン</Trunken_hediff_Synchronizer.stages.Screen.label>
+  <Trunken_hediff_Synchronizer.labelNoun>シンクロナイザ</Trunken_hediff_Synchronizer.labelNoun>
+
+
+  <!-- ############## Elastic Achilles ############## -->
+
+  <Trunken_hediff_ElasticAchilles.label>エラステックアキレス</Trunken_hediff_ElasticAchilles.label>
+  <Trunken_hediff_ElasticAchilles.labelNoun>強化アキレス腱</Trunken_hediff_ElasticAchilles.labelNoun>
+
+</LanguageData>

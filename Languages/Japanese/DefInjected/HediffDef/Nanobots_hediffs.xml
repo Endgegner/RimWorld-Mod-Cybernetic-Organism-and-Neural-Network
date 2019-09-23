@@ -17,6 +17,10 @@
 
   <Trunken_hediff_Brainwash.label>洗脳</Trunken_hediff_Brainwash.label>
   <Trunken_hediff_Brainwash.stages.Irreversible.label>変化は不可逆的</Trunken_hediff_Brainwash.stages.Irreversible.label>
-  <Trunken_hediff_Brainwash.labelNoun>洗脳装置</Trunken_hediff_Brainwash.labelNoun>
+
+
+  <!-- ############## Amnesiah ############## -->
+
+  <Trunken_hediff_Amnesiah.label>アムネジア</Trunken_hediff_Amnesiah.label>
 
 </LanguageData>

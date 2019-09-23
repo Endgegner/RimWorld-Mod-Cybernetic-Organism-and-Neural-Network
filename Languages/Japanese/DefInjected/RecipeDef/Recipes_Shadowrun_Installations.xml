@@ -108,9 +108,9 @@
 
   <!-- Shadowrunner -->
 
-  <InstallShadowrunner.label>シャドウランナーを移植</InstallShadowrunner.label>
-  <InstallShadowrunner.description>シャドウランナーを移植する。</InstallShadowrunner.description>
-  <InstallShadowrunner.jobString>シャドウランナーを移植中</InstallShadowrunner.jobString>
+  <ANN_InstallShadowrunner.label>シャドウランナーを移植</ANN_InstallShadowrunner.label>
+  <ANN_InstallShadowrunner.description>シャドウランナーを移植する。</ANN_InstallShadowrunner.description>
+  <ANN_InstallShadowrunner.jobString>シャドウランナーを移植中</ANN_InstallShadowrunner.jobString>
 
 
   <!-- Musclewire -->
@@ -122,15 +122,15 @@
 
   <!-- Dermalplating -->
 
-  <InstallDermalplating.label>ダーマルプレーティングを移植</InstallDermalplating.label>
-  <InstallDermalplating.description>ダーマルプレーティングを移植する。</InstallDermalplating.description>
-  <InstallDermalplating.jobString>換装用皮膚を移植中</InstallDermalplating.jobString>
+  <ANN_InstallDermalplating.label>ダーマルプレーティングを移植</ANN_InstallDermalplating.label>
+  <ANN_InstallDermalplating.description>ダーマルプレーティングを移植する。</ANN_InstallDermalplating.description>
+  <ANN_InstallDermalplating.jobString>換装用皮膚を移植中</ANN_InstallDermalplating.jobString>
 
 
   <!-- Exoskeleton Armor -->
 
-  <InstallExoskeletonArmor.label>外骨格アーマーを移植</InstallExoskeletonArmor.label>
-  <InstallExoskeletonArmor.description>外骨格アーマーを移植する。</InstallExoskeletonArmor.description>
-  <InstallExoskeletonArmor.jobString>換装用外骨格を移植中</InstallExoskeletonArmor.jobString>
+  <ANN_InstallExoskeletonArmor.label>外骨格アーマーを移植</ANN_InstallExoskeletonArmor.label>
+  <ANN_InstallExoskeletonArmor.description>外骨格アーマーを移植する。</ANN_InstallExoskeletonArmor.description>
+  <ANN_InstallExoskeletonArmor.jobString>換装用外骨格を移植中</ANN_InstallExoskeletonArmor.jobString>
 
 </LanguageData>
